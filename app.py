@@ -4,37 +4,30 @@
 # In[1]:
 
 
-get_ipython().system('pip install textblob')
+from flask import Flask
+app = Flask(__name__)
 
 
-# In[2]:
+# In[ ]:
 
 
+from flask import request, render_template
 from textblob import TextBlob
 
-
-# In[3]:
-
-
-f = open("news.txt")
-
-
-# In[4]:
-
-
-d = f.read()
-
-
-# In[5]:
+   
+@app.route("/", methods=["GET", "POST"])
+def index():
+    if request.method == "POST":
+        text = request.form.get("text")
+        print(text)
+        r = TextBlob(text).sentiment
+        return(render_template("index.html", results=r))
+    else:
+        return(render_template("index.html", results="2"))
 
 
-print(d)
-
-
-# In[6]:
-
-
-TextBlob(d).sentiment
+if __name__=="__main__": 
+    app.run()
 
 
 # In[ ]:
