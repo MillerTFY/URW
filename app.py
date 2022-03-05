@@ -2,8 +2,8 @@
  "cells": [
   {
    "cell_type": "code",
-   "execution_count": 1,
-   "id": "dc87076f",
+   "execution_count": 2,
+   "id": "1c2be92a",
    "metadata": {},
    "outputs": [],
    "source": [
@@ -14,7 +14,7 @@
   {
    "cell_type": "code",
    "execution_count": null,
-   "id": "6ebe5810",
+   "id": "043d503d",
    "metadata": {},
    "outputs": [
     {
@@ -32,142 +32,7 @@
      "name": "stderr",
      "output_type": "stream",
      "text": [
-      " * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)\n",
-      "127.0.0.1 - - [05/Mar/2022 12:03:58] \"\u001b[37mGET / HTTP/1.1\u001b[0m\" 200 -\n",
-      "127.0.0.1 - - [05/Mar/2022 12:04:02] \"\u001b[37mPOST / HTTP/1.1\u001b[0m\" 200 -\n"
-     ]
-    },
-    {
-     "name": "stdout",
-     "output_type": "stream",
-     "text": [
-      "very bad\n"
-     ]
-    },
-    {
-     "name": "stderr",
-     "output_type": "stream",
-     "text": [
-      "127.0.0.1 - - [05/Mar/2022 12:04:48] \"\u001b[37mPOST / HTTP/1.1\u001b[0m\" 200 -\n"
-     ]
-    },
-    {
-     "name": "stdout",
-     "output_type": "stream",
-     "text": [
-      "very bad\n"
-     ]
-    },
-    {
-     "name": "stderr",
-     "output_type": "stream",
-     "text": [
-      "127.0.0.1 - - [05/Mar/2022 12:04:52] \"\u001b[37mPOST / HTTP/1.1\u001b[0m\" 200 -\n"
-     ]
-    },
-    {
-     "name": "stdout",
-     "output_type": "stream",
-     "text": [
-      "super\n"
-     ]
-    },
-    {
-     "name": "stderr",
-     "output_type": "stream",
-     "text": [
-      "127.0.0.1 - - [05/Mar/2022 12:05:00] \"\u001b[37mPOST / HTTP/1.1\u001b[0m\" 200 -\n"
-     ]
-    },
-    {
-     "name": "stdout",
-     "output_type": "stream",
-     "text": [
-      "fuck\n"
-     ]
-    },
-    {
-     "name": "stderr",
-     "output_type": "stream",
-     "text": [
-      "127.0.0.1 - - [05/Mar/2022 12:05:10] \"\u001b[37mPOST / HTTP/1.1\u001b[0m\" 200 -\n"
-     ]
-    },
-    {
-     "name": "stdout",
-     "output_type": "stream",
-     "text": [
-      "theng\n"
-     ]
-    },
-    {
-     "name": "stderr",
-     "output_type": "stream",
-     "text": [
-      "127.0.0.1 - - [05/Mar/2022 12:05:19] \"\u001b[37mPOST / HTTP/1.1\u001b[0m\" 200 -\n"
-     ]
-    },
-    {
-     "name": "stdout",
-     "output_type": "stream",
-     "text": [
-      "Russia\n"
-     ]
-    },
-    {
-     "name": "stderr",
-     "output_type": "stream",
-     "text": [
-      "127.0.0.1 - - [05/Mar/2022 12:05:21] \"\u001b[37mPOST / HTTP/1.1\u001b[0m\" 200 -\n"
-     ]
-    },
-    {
-     "name": "stdout",
-     "output_type": "stream",
-     "text": [
-      "\n"
-     ]
-    },
-    {
-     "name": "stderr",
-     "output_type": "stream",
-     "text": [
-      "127.0.0.1 - - [05/Mar/2022 12:05:24] \"\u001b[37mPOST / HTTP/1.1\u001b[0m\" 200 -\n"
-     ]
-    },
-    {
-     "name": "stdout",
-     "output_type": "stream",
-     "text": [
-      "Russia\n"
-     ]
-    },
-    {
-     "name": "stderr",
-     "output_type": "stream",
-     "text": [
-      "127.0.0.1 - - [05/Mar/2022 12:05:36] \"\u001b[37mPOST / HTTP/1.1\u001b[0m\" 200 -\n"
-     ]
-    },
-    {
-     "name": "stdout",
-     "output_type": "stream",
-     "text": [
-      "bomb\n"
-     ]
-    },
-    {
-     "name": "stderr",
-     "output_type": "stream",
-     "text": [
-      "127.0.0.1 - - [05/Mar/2022 12:05:41] \"\u001b[37mPOST / HTTP/1.1\u001b[0m\" 200 -\n"
-     ]
-    },
-    {
-     "name": "stdout",
-     "output_type": "stream",
-     "text": [
-      "very bad\n"
+      " * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)\n"
      ]
     }
    ],
@@ -194,7 +59,7 @@
   {
    "cell_type": "code",
    "execution_count": null,
-   "id": "576953c1",
+   "id": "0f307c86",
    "metadata": {},
    "outputs": [],
    "source": []
